@@ -11,7 +11,10 @@ function Index() {
         articles={articles}
         setArticles={setArticles}
       />
-      <Form />
+      <Form
+        setArticles={setArticles}
+        articles={articles}
+      />
     </div>
   )
 }

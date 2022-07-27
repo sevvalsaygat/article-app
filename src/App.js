@@ -4,7 +4,7 @@ import Articles from './components/Articles/index'
 function App() {
   return (
     <div>
-      <Articles/>
+      <Articles />
     </div>
   );
 }
