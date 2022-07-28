@@ -3,7 +3,7 @@ import Articles from './components/Articles/index'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Articles />
     </div>
   );

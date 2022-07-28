@@ -14,13 +14,12 @@ function Index({ articles, setArticles }) {
   return (
     <div>
       <ul className='list'>
-        {
-          articles.map((article, i) => (
-            <li key={i}>
-              <span>{article.title}</span>
-              <span>{article.content}</span>
-            </li>
-          ))}
+        {articles.map((article, i) => (
+          <li key={i}>
+            <span>{article.title}</span>
+            <span>{article.content}</span>
+          </li>
+        ))}
       </ul>
     </div>
   )
